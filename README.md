@@ -1,7 +1,10 @@
-# Vue 3 + Vite
+# Instructions
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Vite, Vue and TailwindCSS
+All of these are already included and configured, with tailwind using classic purge. Use **`npm run dev`** to run Vite and start developing!
 
-## Recommended IDE Setup
+## Build package and HTML
+To make sure that Electron get the necessary information from Vite, the **`npm run dev`** command is needed, this creates a dist folder with an index html file and scripts. The dist folder is used as the source for Electron.
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## Run Electron
+Run **`npm run start`** for Electron
